@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "BrowserStats",
+  "version": "1.0",
+  "description": "その日のサイトアクセス回数を表示します。",
+  "permissions": ["history"],
+  "action": {
+    "default_icon": "image/icon.png",
+    "default_popup": "src/popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
